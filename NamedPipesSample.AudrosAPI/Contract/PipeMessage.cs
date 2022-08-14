@@ -1,4 +1,4 @@
-﻿namespace NamedPipesSample.Common
+﻿namespace NamedPipesSample.AudrosAPI.Contract
 {
     public interface PipeMessage
     {

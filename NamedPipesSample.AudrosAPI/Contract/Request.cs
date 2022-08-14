@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NamedPipesSample.Common
+namespace NamedPipesSample.AudrosAPI.Contract
 {
     [Serializable]
-    public class Response:PipeMessage
+    public class Request:PipeMessage
     {
         public Guid Id { get; set; }
-        public string ResponseText { get; set; }
-        public Response()
+        public string RequestText { get; set; }
+        public Request()
         {
             Id = Guid.NewGuid();
         }

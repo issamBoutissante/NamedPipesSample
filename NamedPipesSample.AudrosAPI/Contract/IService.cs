@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NamedPipesSample.Common
+namespace NamedPipesSample.AudrosAPI.Contract
 {
     public interface IService
     {

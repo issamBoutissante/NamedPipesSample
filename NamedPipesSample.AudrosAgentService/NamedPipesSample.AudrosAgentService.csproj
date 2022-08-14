@@ -8,11 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="H.Pipes" Version="2.0.38" />
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NamedPipesSample.Common\NamedPipesSample.Common.csproj" />
+    <ProjectReference Include="..\NamedPipesSample.AudrosAPI\NamedPipesSample.AudrosAPI.csproj" />
   </ItemGroup>
 
 </Project>

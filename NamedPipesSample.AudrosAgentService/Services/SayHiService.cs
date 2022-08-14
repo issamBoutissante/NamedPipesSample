@@ -1,11 +1,12 @@
-﻿using NamedPipesSample.Common;
+﻿using NamedPipesSample.AudrosAPI;
+using NamedPipesSample.AudrosAPI.Contract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NamedPipesSample.WindowsService
+namespace NamedPipesSample.AudrosAgentService.Services
 {
     public class SayHiService : IService
     {
